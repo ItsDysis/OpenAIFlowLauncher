@@ -1,0 +1,12 @@
+{
+    "ID": "042109eb-2797-41fb-a50f-abf830a02add",
+    "ActionKeyword": "gpt",
+    "Name": "OpenAI GPT Plugin",
+    "Description": "Unofficial OpenAI GPT Plugin",
+    "Author": "Dysis",
+    "Version": "1.0.0",
+    "Language": "python",
+    "Website": "https://github.com/ItsDysis/OpenAIFlowLauncher",
+    "IcoPath": "Images\\logo.png",
+    "ExecuteFileName": "main.py"
+}

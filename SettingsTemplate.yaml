@@ -1,0 +1,30 @@
+body:
+  - type: input
+    attributes:
+      name: OPENAI_KEY
+      description: Your personal API Key. Generate one under https://beta.openai.com/account/api-keys.
+      label: Your personal OpenAI Key
+      defaultValue: EDIT_ME
+  - type: dropdown
+    attributes:
+      name: OPENAI_MODEL
+      label: The model to use
+      description: The model to use. More information under https://beta.openai.com/docs/models/gpt-3. Note that the models vary in cost
+      defaultValue: text-ada-001
+      options:
+        - text-ada-001
+        - text-babbage-001
+        - text-curie-001
+        - text-davinci-003
+  - type: input
+    attributes:
+      name: OPENAI_MAX_TOKENS
+      label: max_tokens
+      description: The maximum number of tokens to generate in the completion.
+      defaultValue: 16
+  - type: input
+    attributes:
+      name: OPENAI_TEMPERATURE
+      label: temperature
+      description: What sampling temperature to use
+      defaultValue: 1
